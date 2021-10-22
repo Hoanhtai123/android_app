@@ -1,0 +1,13 @@
+﻿Sau khi cài xong bạn copy 2 file ArmAccess.DLL và vspdctl.dll trong thư mục Crack rồi paste 
+đè lên file có săn trong thư mục đã cài ra.
+Mặc định thư mục cài là: C:\Program Files\Eltima Software\Virtual Serial Port Driver 6.0
+Vào đó mà Paste.
+
+Nếu bạn đang dùng bản của thầy copy cho thì chỉ cần copy 2 file trên rồi paste đè là OK mà không cần cài phần mềm đi theo này nữa.
+
+
+_____________________
+Tiến Thành_TK5LC
+Tel: 0975.277.356
+Email: TienThanh080@gmail.com
+

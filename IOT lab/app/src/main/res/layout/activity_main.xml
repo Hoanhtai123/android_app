@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cclaptopcom.helloworld.MainActivity">
+
+
+
+    <TextView
+
+        android:id="@+id/txtTemperature"
+        android:text="35°C"
+        android:background="#ff0000"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="25%"
+        app:layout_marginStartPercent="10%"
+        app:layout_marginTopPercent="10%"
+
+        />
+
+    <TextView
+
+        android:id="@+id/txtHumidity"
+        android:text="70%"
+        android:background="#0000ff"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="25%"
+        app:layout_marginStartPercent="55%"
+        app:layout_marginTopPercent="10%"
+
+        />
+    <ToggleButton
+        android:id="@+id/btnLED"
+
+        app:layout_widthPercent="60%"
+        app:layout_heightPercent="25%"
+        app:layout_marginStartPercent="20%"
+        app:layout_marginTopPercent="45%"
+        android:background="@drawable/toggle_selector"
+        android:checked="false"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+
+        android:text="UNIVERSITY OF TECHNOLOGY!!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#0000ff"
+
+        app:layout_widthPercent="20%"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="0%"
+        app:layout_marginTopPercent="85%"
+        android:background="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/slogan"
+
+        android:text="UNIVERSITY OF TECHNOLOGY!!"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="15%"
+        app:layout_marginStartPercent="20%"
+        app:layout_marginTopPercent="85%"
+
+        />
+</android.support.percent.PercentRelativeLayout>
